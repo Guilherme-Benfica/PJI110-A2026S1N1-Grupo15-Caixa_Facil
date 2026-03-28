@@ -100,3 +100,4 @@ C:\Dev\CaixaFacil\obj\Debug\net8.0\refint\CaixaFacil.dll
 C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.pdb
 C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.genruntimeconfig.cache
 C:\Dev\CaixaFacil\obj\Debug\net8.0\ref\CaixaFacil.dll
+C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.sourcelink.json

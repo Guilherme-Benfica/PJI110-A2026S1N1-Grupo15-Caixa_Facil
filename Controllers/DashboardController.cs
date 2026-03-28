@@ -1,6 +1,6 @@
 using System.Security.Claims;
 using CaixaFacil.Data;
-using CaixaFacil.Models;
+using CaixaFacil.Models.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -20,7 +20,6 @@ namespace CaixaFacil.Controllers
             var inicio = new DateTime(hoje.Year, hoje.Month, 1);
             var fim    = inicio.AddMonths(1);
 
-            // Lançamentos do mês corrente
             var lancamentos = await _db.Lancamentos
                 .Include(l => l.Categoria)
                 .Include(l => l.Conta)
@@ -29,12 +28,11 @@ namespace CaixaFacil.Controllers
                 .OrderByDescending(l => l.Data)
                 .ToListAsync();
 
-            // Totais
             var entradas = lancamentos.Where(l => l.Tipo == "Entrada").Sum(l => l.Valor);
             var saidas   = lancamentos.Where(l => l.Tipo == "Saída").Sum(l => l.Valor);
 
-            // Dados para gráfico (últimos 7 dias)
-            var labels    = new List<string>();
+            // Dados para gráfico dos últimos 7 dias
+            var labels       = new List<string>();
             var grafEntradas = new List<decimal>();
             var grafSaidas   = new List<decimal>();
 

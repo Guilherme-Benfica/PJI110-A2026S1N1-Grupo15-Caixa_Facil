@@ -1,6 +1,7 @@
 using System.Security.Claims;
 using CaixaFacil.Data;
 using CaixaFacil.Models;
+using CaixaFacil.Models.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -78,8 +79,8 @@ namespace CaixaFacil.Controllers
 
             var vm = new ProfileViewModel
             {
-                Nome         = user.Nome,
-                Tema         = user.Tema,
+                Nome          = user.Nome,
+                Tema          = user.Tema,
                 FotoPerfilUrl = user.FotoPerfilUrl
             };
             return View(vm);
@@ -95,12 +96,11 @@ namespace CaixaFacil.Controllers
             var user = await GetCurrentUserAsync();
             if (user == null) return RedirectToAction("Login");
 
-            user.Nome         = vm.Nome;
-            user.Tema         = vm.Tema;
+            user.Nome          = vm.Nome;
+            user.Tema          = vm.Tema;
             user.FotoPerfilUrl = vm.FotoPerfilUrl;
             await _db.SaveChangesAsync();
 
-            // Atualiza claim do nome
             await HttpContext.SignOutAsync("CaixaFacilCookie");
             await SignInAsync(user);
 
