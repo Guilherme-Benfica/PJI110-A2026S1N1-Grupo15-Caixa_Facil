@@ -66,8 +66,8 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 **1. Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/caixafacil.git
-cd caixafacil
+git clone https://github.com/Guilherme-Benfica/PJI110-A2026S1N1-Grupo15-Caixa_Facil.git
+cd PJI110-A2026S1N1-Grupo15-Caixa_Facil
 ```
 
 **2. Configure o banco de dados**
