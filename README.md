@@ -115,10 +115,6 @@ CaixaFacil/
 
 ---
 
-## 🤝 Contribuição
 
-Este projeto está aberto para contribuições. Sinta-se à vontade para enviar sugestões, correções ou novas funcionalidades através de *pull requests* 🚀
-
----
 
 *Projeto desenvolvido para fins acadêmicos — UNIVESP 2026*
