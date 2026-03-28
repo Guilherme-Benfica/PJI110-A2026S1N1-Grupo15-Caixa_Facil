@@ -1,0 +1,134 @@
+@model List<Lancamento>
+@{ ViewData["Title"] = "Lançamentos"; }
+
+<div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+    <h5 class="fw-bold mb-0"><i class="bi bi-journal-text me-2 text-primary"></i>Lançamentos</h5>
+    <a asp-action="Create" class="btn btn-success btn-sm fw-semibold">
+        <i class="bi bi-plus-lg me-1"></i>Novo lançamento
+    </a>
+</div>
+
+<!-- Filtros -->
+<form method="get" class="row g-2 mb-3">
+    <div class="col-auto">
+        <select name="tipo" class="form-select form-select-sm">
+            <option value="">Todos os tipos</option>
+            @if (ViewBag.FiltroTipo == "Entrada") {
+                <option value="Entrada" selected>Entradas</option>
+                <option value="Saída">Saídas</option>
+            } else if (ViewBag.FiltroTipo == "Saída") {
+                <option value="Entrada">Entradas</option>
+                <option value="Saída" selected>Saídas</option>
+            } else {
+                <option value="Entrada">Entradas</option>
+                <option value="Saída">Saídas</option>
+            }
+        </select>
+    </div>
+    <div class="col-auto">
+        <select name="categoriaId" class="form-select form-select-sm">
+            <option value="">Todas categorias</option>
+            @foreach (var c in (Microsoft.AspNetCore.Mvc.Rendering.SelectList)ViewBag.Categorias)
+            {
+                if (c.Selected) {
+                    <option value="@c.Value" selected>@c.Text</option>
+                } else {
+                    <option value="@c.Value">@c.Text</option>
+                }
+            }
+        </select>
+    </div>
+    <div class="col-auto">
+        <input type="month" name="mes" value="@ViewBag.FiltroMes" class="form-control form-control-sm" />
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-outline-primary btn-sm">
+            <i class="bi bi-funnel me-1"></i>Filtrar
+        </button>
+        <a asp-action="Index" class="btn btn-outline-secondary btn-sm ms-1">Limpar</a>
+    </div>
+</form>
+
+<div class="card border-0 shadow-sm">
+    <div class="card-body p-0">
+        @if (!Model.Any())
+        {
+            <p class="text-muted p-4 mb-0">Nenhum lançamento encontrado.</p>
+        }
+        else
+        {
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Data</th>
+                            <th>Tipo</th>
+                            <th>Categoria</th>
+                            <th>Conta</th>
+                            <th>Mov.</th>
+                            <th>Descrição</th>
+                            <th class="text-end">Valor</th>
+                            <th class="text-center">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var l in Model)
+                        {
+                            <tr>
+                                <td>@l.Data.ToString("dd/MM/yyyy")</td>
+                                <td><span class="badge @(l.Tipo=="Entrada"?"bg-success":"bg-danger")">@l.Tipo</span></td>
+                                <td>@(l.Categoria?.Nome ?? "—")</td>
+                                <td>@(l.Conta?.Nome ?? "—")</td>
+                                <td>@(l.TipoMovimento?.Nome ?? "—")</td>
+                                <td class="text-truncate" style="max-width:160px" title="@l.Descricao">@(l.Descricao ?? "—")</td>
+                                <td class="text-end fw-semibold @(l.Tipo=="Entrada"?"text-success":"text-danger")">
+                                    R$ @l.Valor.ToString("N2")
+                                </td>
+                                <td class="text-center">
+                                    <a asp-action="Edit" asp-route-id="@l.Id" class="btn btn-outline-primary btn-sm" title="Editar">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+                                    <button type="button" class="btn btn-outline-danger btn-sm"
+                                            data-bs-toggle="modal" data-bs-target="#modalDel"
+                                            data-id="@l.Id" data-desc="@l.Descricao (@l.Data.ToString("dd/MM/yyyy"))">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Modal confirmação exclusão -->
+<div class="modal fade" id="modalDel" tabindex="-1">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title text-danger"><i class="bi bi-trash me-2"></i>Excluir lançamento</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body small">Deseja excluir: <strong id="descDel"></strong>?</div>
+            <div class="modal-footer p-2">
+                <button class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cancelar</button>
+                <form id="formDel" method="post">
+                    @Html.AntiForgeryToken()
+                    <button type="submit" class="btn btn-danger btn-sm">Excluir</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script>
+$('#modalDel').on('show.bs.modal', function (e) {
+    var btn = $(e.relatedTarget);
+    $('#descDel').text(btn.data('desc'));
+    $('#formDel').attr('action', '/Lancamentos/Delete/' + btn.data('id'));
+});
+</script>
+}

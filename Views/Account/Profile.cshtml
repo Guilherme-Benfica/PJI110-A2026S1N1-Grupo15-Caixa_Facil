@@ -1,0 +1,51 @@
+@model ProfileViewModel
+@{ ViewData["Title"] = "Perfil"; }
+
+<div class="row justify-content-center">
+<div class="col-12 col-md-6">
+    <div class="card border-0 shadow-sm">
+        <div class="card-header bg-transparent border-0 pt-3 fw-semibold">
+            <i class="bi bi-person-gear me-2 text-primary"></i>Meu Perfil
+        </div>
+        <div class="card-body">
+            <form asp-action="Profile" asp-controller="Account" method="post">
+                @Html.AntiForgeryToken()
+
+                <div class="mb-3">
+                    <label asp-for="Nome" class="form-label">Nome / Estabelecimento</label>
+                    <input asp-for="Nome" class="form-control" />
+                    <span asp-validation-for="Nome" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="FotoPerfilUrl" class="form-label">URL da foto de perfil <span class="text-muted">(opcional)</span></label>
+                    <input asp-for="FotoPerfilUrl" class="form-control" placeholder="https://..." />
+                    <span asp-validation-for="FotoPerfilUrl" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="Tema" class="form-label">Tema</label>
+                    <select asp-for="Tema" class="form-select" id="selectTema">
+                        <option value="system">Sistema (automático)</option>
+                        <option value="light">Claro</option>
+                        <option value="dark">Escuro</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-success fw-semibold">
+                    <i class="bi bi-floppy me-2"></i>Salvar alterações
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+@section Scripts {
+<script>
+document.getElementById('selectTema').addEventListener('change', function(){
+    localStorage.setItem('caixafacil_tema', this.value);
+    applyTheme(this.value);
+});
+</script>
+}

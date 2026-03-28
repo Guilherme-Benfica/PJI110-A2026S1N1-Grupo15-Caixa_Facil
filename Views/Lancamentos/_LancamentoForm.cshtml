@@ -1,0 +1,55 @@
+@model Lancamento
+
+<div class="row g-3">
+    <div class="col-6">
+        <label asp-for="Tipo" class="form-label">Tipo <span class="text-danger">*</span></label>
+        <select asp-for="Tipo" class="form-select">
+            <option value="">Selecione...</option>
+            <option value="Entrada">🟢 Entrada</option>
+            <option value="Saída">🔴 Saída</option>
+        </select>
+        <span asp-validation-for="Tipo" class="text-danger small"></span>
+    </div>
+
+    <div class="col-6">
+        <label asp-for="Data" class="form-label">Data <span class="text-danger">*</span></label>
+        <input asp-for="Data" type="date" class="form-control" />
+        <span asp-validation-for="Data" class="text-danger small"></span>
+    </div>
+
+    <div class="col-6">
+        <label asp-for="Valor" class="form-label">Valor (R$) <span class="text-danger">*</span></label>
+        <input asp-for="Valor" type="number" step="0.01" min="0.01" class="form-control" placeholder="0,00" />
+        <span asp-validation-for="Valor" class="text-danger small"></span>
+    </div>
+
+    <div class="col-6">
+        <label asp-for="CategoriaId" class="form-label">Categoria <span class="text-danger">*</span></label>
+        <select asp-for="CategoriaId" asp-items="ViewBag.Categorias" class="form-select">
+            <option value="">Selecione...</option>
+        </select>
+        <span asp-validation-for="CategoriaId" class="text-danger small"></span>
+    </div>
+
+    <div class="col-6">
+        <label asp-for="ContaId" class="form-label">Conta / Caixa <span class="text-danger">*</span></label>
+        <select asp-for="ContaId" asp-items="ViewBag.Contas" class="form-select">
+            <option value="">Selecione...</option>
+        </select>
+        <span asp-validation-for="ContaId" class="text-danger small"></span>
+    </div>
+
+    <div class="col-6">
+        <label asp-for="TipoMovimentoId" class="form-label">Forma de pagamento <span class="text-danger">*</span></label>
+        <select asp-for="TipoMovimentoId" asp-items="ViewBag.TiposMovimento" class="form-select">
+            <option value="">Selecione...</option>
+        </select>
+        <span asp-validation-for="TipoMovimentoId" class="text-danger small"></span>
+    </div>
+
+    <div class="col-12">
+        <label asp-for="Descricao" class="form-label">Descrição</label>
+        <input asp-for="Descricao" class="form-control" placeholder="Ex: 15 hot-dogs, corte + escova..." maxlength="500" />
+        <span asp-validation-for="Descricao" class="text-danger small"></span>
+    </div>
+</div>

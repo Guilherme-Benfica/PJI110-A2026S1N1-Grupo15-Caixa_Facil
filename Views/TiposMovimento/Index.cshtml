@@ -1,0 +1,43 @@
+@model List<TipoMovimento>
+@{ ViewData["Title"] = "Tipos de Movimento"; }
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h5 class="fw-bold mb-0"><i class="bi bi-card-list me-2 text-primary"></i>Tipos de Movimento / Pagamento</h5>
+    <a asp-action="Create" class="btn btn-success btn-sm"><i class="bi bi-plus-lg me-1"></i>Novo tipo</a>
+</div>
+
+<div class="card border-0 shadow-sm">
+    <div class="card-body p-0">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light"><tr><th>Nome</th><th class="text-center">Ações</th></tr></thead>
+            <tbody>
+                @foreach (var t in Model)
+                {
+                    <tr>
+                        <td class="fw-semibold">@t.Nome</td>
+                        <td class="text-center">
+                            <a asp-action="Edit" asp-route-id="@t.Id" class="btn btn-outline-primary btn-sm"><i class="bi bi-pencil"></i></a>
+                            <button type="button" class="btn btn-outline-danger btn-sm"
+                                    data-bs-toggle="modal" data-bs-target="#modalDel"
+                                    data-id="@t.Id" data-nome="@t.Nome">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="modal fade" id="modalDel" tabindex="-1">
+    <div class="modal-dialog modal-sm"><div class="modal-content">
+        <div class="modal-header"><h6 class="modal-title text-danger">Excluir tipo</h6><button class="btn-close" data-bs-dismiss="modal"></button></div>
+        <div class="modal-body small">Excluir <strong id="nomeEl"></strong>?</div>
+        <div class="modal-footer p-2">
+            <button class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cancelar</button>
+            <form id="formDel" method="post">@Html.AntiForgeryToken()<button class="btn btn-danger btn-sm">Excluir</button></form>
+        </div>
+    </div></div>
+</div>
+@section Scripts {<script>$('#modalDel').on('show.bs.modal',function(e){var b=$(e.relatedTarget);$('#nomeEl').text(b.data('nome'));$('#formDel').attr('action','/TiposMovimento/Delete/'+b.data('id'));});</script>}

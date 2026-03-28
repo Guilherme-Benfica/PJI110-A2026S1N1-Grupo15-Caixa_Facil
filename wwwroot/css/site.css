@@ -1,0 +1,36 @@
+/* ── CaixaFácil — site.css ─────────────────────────────────────────── */
+
+/* Navbar */
+#mainNavbar {
+    background-color: var(--bs-body-bg);
+    border-bottom: 1px solid var(--bs-border-color);
+}
+
+/* Ícone de caixa de card */
+.icon-box {
+    min-width: 56px;
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Cards de resumo — borda lateral colorida */
+.card-entrada { border-left: 4px solid #198754 !important; }
+.card-saida   { border-left: 4px solid #dc3545 !important; }
+.card-positivo{ border-left: 4px solid #0d6efd !important; }
+.card-negativo{ border-left: 4px solid #ffc107 !important; }
+
+/* Tema escuro — pequenos ajustes */
+[data-bs-theme="dark"] #mainNavbar {
+    background-color: #1a1d20;
+}
+[data-bs-theme="dark"] .table-light {
+    --bs-table-bg: #2a2d30;
+    --bs-table-color: #dee2e6;
+}
+
+/* Responsividade da tabela em mobile */
+@media (max-width: 576px) {
+    .table-responsive .btn { padding: 2px 6px; font-size: .75rem; }
+}

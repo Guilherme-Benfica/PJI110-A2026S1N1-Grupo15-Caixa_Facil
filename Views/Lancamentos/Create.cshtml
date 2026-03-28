@@ -1,0 +1,24 @@
+@model Lancamento
+@{ ViewData["Title"] = "Novo lançamento"; }
+
+<div class="row justify-content-center">
+<div class="col-12 col-md-7">
+    <div class="card border-0 shadow-sm">
+        <div class="card-header bg-transparent border-0 pt-3 fw-semibold">
+            <i class="bi bi-plus-circle me-2 text-success"></i>Novo lançamento
+        </div>
+        <div class="card-body">
+            <form asp-action="Create" asp-controller="Lancamentos" method="post">
+                @Html.AntiForgeryToken()
+                @await Html.PartialAsync("_LancamentoForm", Model)
+                <div class="d-flex gap-2 mt-3">
+                    <button type="submit" class="btn btn-success fw-semibold">
+                        <i class="bi bi-floppy me-2"></i>Salvar
+                    </button>
+                    <a asp-action="Index" class="btn btn-outline-secondary">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
