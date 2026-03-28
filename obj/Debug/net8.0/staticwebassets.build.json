@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pnO/0xSBcadmKJAtD1Zapi9fwtWMEpdrsq53SzPKYmo=",
+  "Hash": "DnyYJ9x6CnQN8nCEDfqMW+BzzMjD8YUGSnbgFvOy/ew=",
   "Source": "CaixaFacil",
   "BasePath": "_content/CaixaFacil",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CaixaFacil\\wwwroot",
       "Source": "CaixaFacil",
-      "ContentRoot": "C:\\Dev\\CaixaFacil\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Guilherme Benfica\\Source\\Repos\\Guilherme-Benfica\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\wwwroot\\",
       "BasePath": "_content/CaixaFacil",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Dev\\CaixaFacil\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Guilherme Benfica\\Source\\Repos\\Guilherme-Benfica\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\wwwroot\\css\\site.css",
       "SourceId": "CaixaFacil",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Dev\\CaixaFacil\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Guilherme Benfica\\Source\\Repos\\Guilherme-Benfica\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\wwwroot\\",
       "BasePath": "_content/CaixaFacil",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Dev\\CaixaFacil\\wwwroot\\js\\theme.js",
+      "Identity": "C:\\Users\\Guilherme Benfica\\Source\\Repos\\Guilherme-Benfica\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\wwwroot\\js\\theme.js",
       "SourceId": "CaixaFacil",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Dev\\CaixaFacil\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Guilherme Benfica\\Source\\Repos\\Guilherme-Benfica\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\wwwroot\\",
       "BasePath": "_content/CaixaFacil",
       "RelativePath": "js/theme.js",
       "AssetKind": "All",

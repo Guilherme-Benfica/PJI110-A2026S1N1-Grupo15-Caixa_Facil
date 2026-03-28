@@ -55,12 +55,16 @@ O sistema tem como objetivo **facilitar o registro e a análise de dados finance
 
 ## ⚙️ Instalação e Uso
 
-Siga os passos abaixo para rodar o projeto localmente:
-
 ### Pré-requisitos
+
+Certifique-se de ter instalado na sua máquina:
+
 - [.NET 8 SDK](https://dotnet.microsoft.com/download)
 - [MySQL Server 8.0](https://dev.mysql.com/downloads/mysql/)
 - [VS Code](https://code.visualstudio.com/) ou qualquer IDE de sua preferência
+- [Git](https://git-scm.com/download/win)
+
+---
 
 ### Passo a passo
 
@@ -72,17 +76,24 @@ cd PJI110-A2026S1N1-Grupo15-Caixa_Facil
 
 **2. Configure o banco de dados**
 
-No MySQL, crie o banco:
+Abra o MySQL e crie o banco:
 ```sql
 CREATE DATABASE caixafacildb CHARACTER SET utf8mb4;
 ```
 
 **3. Configure a connection string**
 
-Abra o arquivo `appsettings.json` e substitua com suas credenciais:
+Copie o arquivo de exemplo e edite com suas credenciais:
+```bash
+copy appsettings.example.json appsettings.json
+```
+
+Abra o `appsettings.json` e substitua `SUA_SENHA_AQUI` pela sua senha do MySQL:
 ```json
 "MySql": "Server=localhost;Port=3306;Database=caixafacildb;User=root;Password=SUA_SENHA;"
 ```
+
+> ⚠️ O arquivo `appsettings.json` está no `.gitignore` e **não é versionado** para proteger suas credenciais. Cada integrante precisa criar o seu localmente a partir do `appsettings.example.json`.
 
 **4. Restaure os pacotes e execute**
 ```bash
@@ -103,18 +114,23 @@ http://localhost:5000
 
 ```
 CaixaFacil/
-├── Controllers/       # Lógica de cada tela
-├── Data/              # AppDbContext (EF Core)
-├── Models/            # Entidades e ViewModels
-├── Views/             # Telas Razor (.cshtml)
-├── wwwroot/           # CSS, JS e arquivos estáticos
-├── sql/               # Script manual do banco
-├── appsettings.json   # Configurações e connection string
-└── Program.cs         # Inicialização da aplicação
+├── Controllers/              # Lógica de cada tela
+├── Data/                     # AppDbContext (EF Core)
+├── Models/
+│   ├── Usuario.cs
+│   ├── Categoria.cs
+│   ├── Conta.cs
+│   ├── TipoMovimento.cs
+│   ├── Lancamento.cs
+│   └── ViewModels/           # ViewModels das telas
+├── Views/                    # Telas Razor (.cshtml)
+├── wwwroot/                  # CSS, JS e arquivos estáticos
+├── sql/                      # Script manual do banco
+├── appsettings.example.json  # Modelo de configuração (versionado)
+├── appsettings.json          # Configuração local (NÃO versionado)
+└── Program.cs                # Inicialização da aplicação
 ```
 
 ---
 
-
-
-*Projeto desenvolvido para fins acadêmicos — UNIVESP 2026*
+*Projeto desenvolvado para fins acadêmicos — UNIVESP 2026*

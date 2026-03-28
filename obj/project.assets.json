@@ -2313,11 +2313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\CaixaFacil\\CaixaFacil.csproj",
+      "projectUniqueName": "C:\\Users\\Guilherme Benfica\\Source\\Repos\\Guilherme-Benfica\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\CaixaFacil.csproj",
       "projectName": "CaixaFacil",
-      "projectPath": "C:\\Dev\\CaixaFacil\\CaixaFacil.csproj",
+      "projectPath": "C:\\Users\\Guilherme Benfica\\Source\\Repos\\Guilherme-Benfica\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\CaixaFacil.csproj",
       "packagesPath": "C:\\Users\\Guilherme Benfica\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\CaixaFacil\\obj\\",
+      "outputPath": "C:\\Users\\Guilherme Benfica\\Source\\Repos\\Guilherme-Benfica\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

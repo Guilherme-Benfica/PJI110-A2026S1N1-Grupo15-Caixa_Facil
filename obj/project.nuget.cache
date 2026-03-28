@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vqph1rJU1edIikNCpyzaZMyLKmt159ssXC/zjKuqGQaQvH+bPNznwDOiY3UgmbOxw/GNESlyw7ytcqnHbIEidg==",
+  "dgSpecHash": "m0QjtDNkDqhZVnrr0O6tKZnPmv6VSus7cFYKXNLrZVdPsucY7zqsAsyfoxjNh8zBpOTqDm1xMUkG2tcVPyEAhw==",
   "success": true,
-  "projectFilePath": "C:\\Dev\\CaixaFacil\\CaixaFacil.csproj",
+  "projectFilePath": "C:\\Users\\Guilherme Benfica\\Source\\Repos\\Guilherme-Benfica\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\CaixaFacil.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guilherme Benfica\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Guilherme Benfica\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
