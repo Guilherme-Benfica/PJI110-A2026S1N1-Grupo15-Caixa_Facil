@@ -1,206 +1,106 @@
-C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.csproj.AssemblyReference.cache
-C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.GeneratedMSBuildEditorConfig.editorconfig
-C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.AssemblyInfoInputs.cache
-C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.AssemblyInfo.cs
-C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.csproj.CoreCompileInputs.cache
-C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.MvcApplicationPartsAssemblyInfo.cache
-C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.RazorAssemblyInfo.cache
-C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.RazorAssemblyInfo.cs
-C:\Dev\CaixaFacil\bin\Debug\net8.0\appsettings.json
-C:\Dev\CaixaFacil\bin\Debug\net8.0\CaixaFacil.staticwebassets.runtime.json
-C:\Dev\CaixaFacil\bin\Debug\net8.0\CaixaFacil.exe
-C:\Dev\CaixaFacil\bin\Debug\net8.0\CaixaFacil.deps.json
-C:\Dev\CaixaFacil\bin\Debug\net8.0\CaixaFacil.runtimeconfig.json
-C:\Dev\CaixaFacil\bin\Debug\net8.0\CaixaFacil.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\CaixaFacil.pdb
-C:\Dev\CaixaFacil\bin\Debug\net8.0\BCrypt.Net-Next.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\Humanizer.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\Mono.TextTemplating.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\MySqlConnector.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\System.CodeDom.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\System.Composition.Convention.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\System.Composition.Hosting.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\System.Composition.Runtime.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\System.Composition.TypedParts.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Dev\CaixaFacil\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Dev\CaixaFacil\obj\Debug\net8.0\staticwebassets.build.json
-C:\Dev\CaixaFacil\obj\Debug\net8.0\staticwebassets.development.json
-C:\Dev\CaixaFacil\obj\Debug\net8.0\staticwebassets\msbuild.CaixaFacil.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Dev\CaixaFacil\obj\Debug\net8.0\staticwebassets\msbuild.build.CaixaFacil.props
-C:\Dev\CaixaFacil\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CaixaFacil.props
-C:\Dev\CaixaFacil\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CaixaFacil.props
-C:\Dev\CaixaFacil\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Dev\CaixaFacil\obj\Debug\net8.0\scopedcss\bundle\CaixaFacil.styles.css
-C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.csproj.Up2Date
-C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.dll
-C:\Dev\CaixaFacil\obj\Debug\net8.0\refint\CaixaFacil.dll
-C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.pdb
-C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.genruntimeconfig.cache
-C:\Dev\CaixaFacil\obj\Debug\net8.0\ref\CaixaFacil.dll
-C:\Dev\CaixaFacil\obj\Debug\net8.0\CaixaFacil.sourcelink.json
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\appsettings.json
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\CaixaFacil.staticwebassets.runtime.json
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\CaixaFacil.exe
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\CaixaFacil.deps.json
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\CaixaFacil.runtimeconfig.json
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\CaixaFacil.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\CaixaFacil.pdb
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\BCrypt.Net-Next.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Humanizer.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Mono.TextTemplating.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\MySqlConnector.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\System.Composition.Convention.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\System.Composition.Hosting.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\System.Composition.Runtime.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\System.Composition.TypedParts.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.csproj.AssemblyReference.cache
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.AssemblyInfoInputs.cache
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.AssemblyInfo.cs
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.csproj.CoreCompileInputs.cache
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.RazorAssemblyInfo.cache
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.RazorAssemblyInfo.cs
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.sourcelink.json
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\staticwebassets\msbuild.CaixaFacil.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\staticwebassets\msbuild.build.CaixaFacil.props
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CaixaFacil.props
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CaixaFacil.props
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\scopedcss\bundle\CaixaFacil.styles.css
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.csproj.Up2Date
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\refint\CaixaFacil.dll
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.pdb
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.genruntimeconfig.cache
-C:\Users\Guilherme Benfica\Source\Repos\Guilherme-Benfica\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\ref\CaixaFacil.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\appsettings.json
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\CaixaFacil.staticwebassets.runtime.json
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\CaixaFacil.staticwebassets.endpoints.json
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\CaixaFacil.exe
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\CaixaFacil.deps.json
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\CaixaFacil.runtimeconfig.json
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\CaixaFacil.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\CaixaFacil.pdb
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Humanizer.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\MySqlConnector.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\System.CodeDom.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.csproj.AssemblyReference.cache
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.AssemblyInfoInputs.cache
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.AssemblyInfo.cs
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.csproj.CoreCompileInputs.cache
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.MvcApplicationPartsAssemblyInfo.cache
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.RazorAssemblyInfo.cache
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.RazorAssemblyInfo.cs
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.sourcelink.json
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\scopedcss\bundle\CaixaFacil.styles.css
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\staticwebassets.build.json
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\staticwebassets.development.json
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\swae.build.ex.cache
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.csproj.Up2Date
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\refint\CaixaFacil.dll
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.pdb
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\CaixaFacil.genruntimeconfig.cache
+C:\GIT\PJI110-A2026S1N1-Grupo15-Caixa_Facil\obj\Debug\net8.0\ref\CaixaFacil.dll

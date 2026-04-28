@@ -2307,23 +2307,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Guilherme Benfica\\.nuget\\packages\\": {},
+    "C:\\Users\\Familia\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guilherme Benfica\\Source\\Repos\\Guilherme-Benfica\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\CaixaFacil.csproj",
+      "projectUniqueName": "C:\\GIT\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\CaixaFacil.csproj",
       "projectName": "CaixaFacil",
-      "projectPath": "C:\\Users\\Guilherme Benfica\\Source\\Repos\\Guilherme-Benfica\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\CaixaFacil.csproj",
-      "packagesPath": "C:\\Users\\Guilherme Benfica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guilherme Benfica\\Source\\Repos\\Guilherme-Benfica\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\obj\\",
+      "projectPath": "C:\\GIT\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\CaixaFacil.csproj",
+      "packagesPath": "C:\\Users\\Familia\\.nuget\\packages\\",
+      "outputPath": "C:\\GIT\\PJI110-A2026S1N1-Grupo15-Caixa_Facil\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Guilherme Benfica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Familia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2349,7 +2349,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -2391,7 +2392,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
