@@ -87,3 +87,23 @@ INSERT IGNORE INTO TiposMovimento (Id, Nome) VALUES
 (4, 'Cartão de Crédito'),
 (5, 'Transferência'),
 (6, 'Nota Fiscal');
+
+-- Lançamentos Recorrentes
+CREATE TABLE IF NOT EXISTS LancamentosRecorrentes (
+    Id              INT            NOT NULL AUTO_INCREMENT,
+    UsuarioId       INT            NOT NULL,
+    CategoriaId     INT            NOT NULL,
+    ContaId         INT            NOT NULL,
+    TipoMovimentoId INT            NOT NULL,
+    Tipo            VARCHAR(10)    NOT NULL,
+    Valor           DECIMAL(10,2)  NOT NULL,
+    DiaVencimento   INT            NOT NULL,
+    Descricao       VARCHAR(500)   NOT NULL,
+    Ativo           TINYINT(1)     NOT NULL DEFAULT 1,
+    UltimaGeracao   DATETIME(6)    NULL,
+    PRIMARY KEY (Id),
+    CONSTRAINT FK_Recorrentes_Usuarios       FOREIGN KEY (UsuarioId)       REFERENCES Usuarios(Id),
+    CONSTRAINT FK_Recorrentes_Categorias     FOREIGN KEY (CategoriaId)     REFERENCES Categorias(Id),
+    CONSTRAINT FK_Recorrentes_Contas         FOREIGN KEY (ContaId)         REFERENCES Contas(Id),
+    CONSTRAINT FK_Recorrentes_TiposMovimento FOREIGN KEY (TipoMovimentoId) REFERENCES TiposMovimento(Id)
+) ENGINE=InnoDB;

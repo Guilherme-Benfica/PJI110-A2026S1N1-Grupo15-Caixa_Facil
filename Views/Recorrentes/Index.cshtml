@@ -1,0 +1,114 @@
+@model List<LancamentoRecorrente>
+@{ ViewData["Title"] = "Lançamentos Recorrentes"; }
+
+<div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+    <h5 class="fw-bold mb-0">
+        <i class="bi bi-arrow-repeat me-2 text-primary"></i>Lançamentos Recorrentes
+    </h5>
+    <div class="d-flex gap-2">
+        <!-- Gerar mês atual -->
+        <form asp-action="GerarMesAtual" asp-controller="Recorrentes" method="post">
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-outline-primary btn-sm fw-semibold">
+                <i class="bi bi-lightning-charge me-1"></i>Gerar mês atual
+            </button>
+        </form>
+        <a asp-action="Create" class="btn btn-success btn-sm fw-semibold">
+            <i class="bi bi-plus-lg me-1"></i>Novo
+        </a>
+    </div>
+</div>
+
+<div class="alert alert-info border-0 shadow-sm py-2">
+    <i class="bi bi-info-circle me-2"></i>
+    Lançamentos recorrentes são gerados automaticamente todo mês. Clique em <strong>Gerar mês atual</strong> para criar os lançamentos do mês corrente.
+</div>
+
+<div class="card border-0 shadow-sm">
+    <div class="card-body p-0">
+        @if (!Model.Any())
+        {
+            <p class="text-muted p-4 mb-0">Nenhum lançamento recorrente cadastrado.</p>
+        }
+        else
+        {
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Descrição</th>
+                            <th>Tipo</th>
+                            <th>Categoria</th>
+                            <th>Conta</th>
+                            <th class="text-center">Dia</th>
+                            <th class="text-end">Valor</th>
+                            <th class="text-center">Status</th>
+                            <th class="text-center">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var r in Model)
+                        {
+                            <tr>
+                                <td class="fw-semibold">@r.Descricao</td>
+                                <td><span class="badge @(r.Tipo=="Entrada"?"bg-success":"bg-danger")">@r.Tipo</span></td>
+                                <td>@(r.Categoria?.Nome ?? "—")</td>
+                                <td>@(r.Conta?.Nome ?? "—")</td>
+                                <td class="text-center">
+                                    <span class="badge bg-secondary">Dia @r.DiaVencimento</span>
+                                </td>
+                                <td class="text-end fw-semibold @(r.Tipo=="Entrada"?"text-success":"text-danger")">
+                                    R$ @r.Valor.ToString("N2")
+                                </td>
+                                <td class="text-center">
+                                    @if (r.Ativo)
+                                    {
+                                        <span class="badge bg-success-subtle text-success border border-success">Ativo</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-secondary-subtle text-secondary border border-secondary">Inativo</span>
+                                    }
+                                </td>
+                                <td class="text-center">
+                                    <a asp-action="Edit" asp-route-id="@r.Id" class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+                                    <button type="button" class="btn btn-outline-danger btn-sm"
+                                            data-bs-toggle="modal" data-bs-target="#modalDel"
+                                            data-id="@r.Id" data-desc="@r.Descricao">
+                                        <i class="bi bi-trash"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Modal exclusão -->
+<div class="modal fade" id="modalDel" tabindex="-1">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header"><h6 class="modal-title text-danger">Excluir recorrente</h6><button class="btn-close" data-bs-dismiss="modal"></button></div>
+            <div class="modal-body small">Excluir <strong id="descDel"></strong>?</div>
+            <div class="modal-footer p-2">
+                <button class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cancelar</button>
+                <form id="formDel" method="post">@Html.AntiForgeryToken()<button class="btn btn-danger btn-sm">Excluir</button></form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script>
+$('#modalDel').on('show.bs.modal', function(e) {
+    var b = $(e.relatedTarget);
+    $('#descDel').text(b.data('desc'));
+    $('#formDel').attr('action', '/Recorrentes/Delete/' + b.data('id'));
+});
+</script>
+}
