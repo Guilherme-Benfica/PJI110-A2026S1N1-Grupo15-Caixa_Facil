@@ -37,6 +37,8 @@ O sistema tem como objetivo **facilitar o registro e a análise de dados finance
 - **Categorias:** cadastro de categorias personalizadas (ex: Vendas, Insumos, Aluguel).
 - **Contas / Caixas:** gerenciamento de caixas e contas (Dinheiro, Pix, Maquininha, etc.).
 - **Tipos de Movimento:** formas de pagamento configuráveis (Pix, Cartão, Dinheiro, etc.).
+- **Lançamentos recorrentes:** cadastro de despesas e receitas fixas mensais (aluguel, internet, energia) com geração automática por um clique.
+- **Relatório em PDF:** exportação do resumo financeiro mensal com tabela de lançamentos, totais e saldo.
 - **Tema claro/escuro:** alternância de tema com persistência no navegador.
 
 ---
