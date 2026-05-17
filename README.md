@@ -110,9 +110,14 @@ Start-Service -Name "MySQL97"
 **4. Defina a senha do root e crie o banco**
 
 ```powershell
-cd "C:\Program Files\MySQL\MySQL Server 9.7\bin"
-.\mysql -u root
+mysql -u root -p
 ```
+
+> Se o MySQL não estiver no PATH, navegue até a pasta do bin antes:
+> ```powershell
+> cd "C:\Program Files\MySQL\MySQL Server 9.7\bin"
+> .\mysql -u root -p
+> ```
 
 Dentro do `mysql>`:
 ```sql
@@ -133,22 +138,23 @@ cd PJI110-A2026S1N1-Grupo15-Caixa_Facil
 
 **2. Configure a connection string**
 
-Copie o arquivo de exemplo e edite com suas credenciais:
-```bash
-copy appsettings.example.json appsettings.json
-notepad appsettings.json
-```
-
-Substitua `SUA_SENHA_AQUI` pela sua senha do MySQL:
+Crie o arquivo `appsettings.json` na raiz do projeto com o conteúdo abaixo, substituindo `SUA_SENHA` pela senha do seu MySQL:
 ```json
 {
   "ConnectionStrings": {
     "MySql": "Server=localhost;Port=3306;Database=caixafacildb;User=root;Password=SUA_SENHA;"
-  }
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
 }
 ```
 
-> ⚠️ O arquivo `appsettings.json` está no `.gitignore` e **não é versionado** para proteger suas credenciais. Cada integrante precisa criar o seu localmente a partir do `appsettings.example.json`.
+> ⚠️ O arquivo `appsettings.json` está no `.gitignore` e **não é versionado** para proteger suas credenciais. Cada integrante precisa criar o seu localmente.
 
 **3. Restaure os pacotes e execute**
 ```bash
@@ -157,9 +163,11 @@ dotnet run
 ```
 
 **4. Acesse no navegador**
-```
-http://localhost:5000
-```
+
+| Protocolo | URL |
+|-----------|-----|
+| HTTPS | `https://localhost:63299` |
+| HTTP  | `http://localhost:63300`  |
 
 > 💡 Na primeira execução, o sistema cria automaticamente todas as tabelas e insere dados iniciais (categorias, contas e tipos de movimento).
 
